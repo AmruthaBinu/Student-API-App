@@ -12,8 +12,11 @@ const StudentNav = () => {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
+                             <li class="nav-item">
+                                <Link class="nav-link active" aria-current="page" to="/">Login</Link>
+                            </li>
                             <li class="nav-item">
-                                <Link class="nav-link active" aria-current="page" to="/">Add_Student</Link>
+                                <Link class="nav-link active" aria-current="page" to="/add">Add_Student</Link>
                             </li>
                             <li class="nav-item">
                                 <Link class="nav-link" to="/search">Search_Student</Link>
